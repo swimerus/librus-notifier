@@ -1,0 +1,9 @@
+{
+    "librus_username": "librus_username",
+    "librus_password": "librus_password",
+    "notifier_mail_addres": "notifier_mail_addres",
+    "notifier_mail_password": "notifier_mail_password",
+    "notifier_receivers": [ "first@gmail.com", "second@gmail.com" ],
+    "announcement_log_filename":"logs/announcement-log.log",
+    "checking_frequency_minutes":"30"
+}
