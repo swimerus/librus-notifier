@@ -1,4 +1,5 @@
 import time
+from datetime import datetime
 
 from apscheduler.schedulers.background import BackgroundScheduler
 
@@ -13,6 +14,8 @@ def notify():
     notifier.check_for_messages()
     notifier.check_for_announcements()
     notifier.send_notification(receivers)
+
+    print(f"{datetime.now()}: Notify function stops")
 
 
 if __name__ == '__main__':
